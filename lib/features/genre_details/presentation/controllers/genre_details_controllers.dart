@@ -1,3 +1,2 @@
-class GenreDetailsController{
-  
+class GenreDetailsController {
 }

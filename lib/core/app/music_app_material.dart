@@ -7,7 +7,7 @@ import '../../features/presentation/screen/genre_list_screen.dart';
 
 class MusicAppMaterial{
 MusicAppMaterial._();
-static String get getTitle=>"Music App";
+static String get getTittle   =>"Music App";
 static List<GetPage>get getPages=>[
   GetPage(name: GenreListScreen.routeName,
     page: ()=> const GenreListScreen(),
@@ -20,11 +20,11 @@ static ThemeData get getTheme => ThemeData(
   primaryColor: MusicAppColors.primaryColor,
   appBarTheme: AppBarTheme(
     elevation: 0,
-    backgroundColor: MusicAppColors.primaryColor,
+    backgroundColor: MusicAppColors.secondaryColor,
     titleTextStyle: TextStyle(
-      color: MusicAppColors.secondaryColor,
-      fontWeight: FontWeight.bold,
-      fontSize: 16,
+      color: MusicAppColors.primaryColor,
+      fontWeight: FontWeight.normal,
+      fontSize: 18,
         fontFamily:'Nunito'
     ),
     centerTitle: true,

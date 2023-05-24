@@ -5,6 +5,6 @@ import 'core/app/musicApp.dart';
 
 Future <void>  main()async {
   await dotenv.load(fileName:'.env');
-  runApp(const MusicApp());
+  runApp( MusicApp());
 }
 

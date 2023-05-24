@@ -9,7 +9,7 @@ class MusicAppInitialBindings extends Bindings{
   @override
   void dependencies() {
 Get.put(ApiService());
-Get.put(AudioPlayerServiceImpl());
+Get.put(AudioPlayerServiceImpl(AudioPlayer(),));
 Get.lazyPut(() => MusicPlayerController());
 
   }

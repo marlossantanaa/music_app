@@ -11,11 +11,11 @@ class MusicApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: MusicAppMaterial.getTitle,
+      title: MusicAppMaterial.getTittle,
       theme: MusicAppMaterial.getTheme,
       getPages: MusicAppMaterial.getPages,
       initialRoute: GenreListScreen.routeName,
-      initialBinding: MusicAppInitialBindings(),
+      initialBinding: MusicAppInitialBindings() ,
 
     );
 
